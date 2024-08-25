@@ -1,4 +1,4 @@
-export const properties = [
+export const properties_rows = [
   {
     "id": 1,
     "imovel_id": 1442,
@@ -20,5 +20,32 @@ export const properties = [
     "imovel_proprietario": "Alice Lene",
     "imovel_telefone_proprietario": "+5592911223344",
     "imovel_endereco": "Rua 2"
+  }
+]
+
+export const properties_headers = [
+  {
+    Header: 'ID do imóvel'
+  },
+  {
+    Header: 'Imóvel'
+  },
+  {
+    Header: 'Categoria do imóvel'
+  },
+  {
+    Header: 'Status'
+  },
+  {
+    Header: 'Início do contrato'
+  },
+  {
+    Header: 'Proprietário'
+  },
+  {
+    Header: 'Telefone do proprietário'
+  },
+  {
+    Header: 'Endereço'
   }
 ]
