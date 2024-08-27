@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom"
-import { SideBar } from "../Components/SideBar"
+import { SideBar } from "../Components/SideBar/SideBar"
 
 export const HeaderPage = () => {
   return (
