@@ -4,7 +4,7 @@ export const properties_rows = [
     "imovel_id": 1442,
     "imovel_numero": "BEH2209",
     "imovel_categoria": "GYNSUP",
-    "imovel_status": ativo,
+    "imovel_status": "ativo",
     "imovel_contrato_inicio": "19/09/2023",
     "imovel_proprietario": "Alexandre Valladares Teixeira",
     "imovel_telefone_proprietario": "+559299988776655",
@@ -15,7 +15,7 @@ export const properties_rows = [
     "imovel_id": 2875,
     "imovel_numero": "BFT3015",
     "imovel_categoria": "ILCSUP",
-    "imovel_status": ativo,
+    "imovel_status": "ativo",
     "imovel_contrato_inicio": "19/06/2024",
     "imovel_proprietario": "Alice Lene",
     "imovel_telefone_proprietario": "+5592911223344",
@@ -25,27 +25,35 @@ export const properties_rows = [
 
 export const properties_headers = [
   {
-    Header: 'ID do imóvel'
+    id: 1,
+    text: 'ID do imóvel'
   },
   {
-    Header: 'Imóvel'
+    id: 2,
+    text: 'Imóvel'
   },
   {
-    Header: 'Categoria do imóvel'
+    id: 3,
+    text: 'Categoria do imóvel'
   },
   {
-    Header: 'Status'
+    id: 4,
+    text: 'Status'
   },
   {
-    Header: 'Início do contrato'
+    id: 5,
+    text: 'Início do contrato'
   },
   {
-    Header: 'Proprietário'
+    id: 6,
+    text: 'Proprietário'
   },
   {
-    Header: 'Telefone do proprietário'
+    id: 7,
+    text: 'Telefone do proprietário'
   },
   {
-    Header: 'Endereço'
+    id: 8,
+    text: 'Endereço'
   }
 ]
