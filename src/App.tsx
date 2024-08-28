@@ -1,5 +1,5 @@
 import './App.css'
-import { DefaultPage } from './pages/DefaultPage'
+import { DefaultPage } from './pages/DefaultPage/DefaultPage'
 
 function App() {
 

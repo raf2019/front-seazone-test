@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import Table from 'react-bootstrap/Table';
-import {properties_headers, properties_rows} from '../Mocks/properties.js'
+import {properties_headers, properties_rows} from '../../Mocks/properties.js'
 // import 'bootstrap/dist/css/bootstrap.min.css'
 import Form from 'react-bootstrap/Form';
+import './styles.css'
 
 
 interface ITableRow {
@@ -40,16 +41,17 @@ export const TableProperties = () => {
     <>
       <div>
         <Form.Label htmlFor="inputSearch">Busca</Form.Label>
+        <div className='inputSearchContainer'>
           <Form.Control
             type="text"
             id="inputSearch"
-          aria-describedby="inputFromUserToSearchOnTable"
-          onChange={(event) => handleSearchTableOnChange(event.target.value)}
+            aria-describedby="inputFromUserToSearchOnTable"
+            onChange={(event) => handleSearchTableOnChange(event.target.value)}
           />
-          <Form.Text id="inputFromUserToSearchOnTable" muted>
-            Busque por imóvel, categoria ou status
-          </Form.Text>
-        <h1>Table from React Bootstrap:</h1>
+            <Form.Text id="inputFromUserToSearchOnTable" muted>
+              Busque por imóvel, categoria ou status
+            </Form.Text>
+        </div>
         <Table responsive>
           <thead>
             <tr>
