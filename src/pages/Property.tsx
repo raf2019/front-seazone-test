@@ -1,4 +1,4 @@
-import TableProperties from "../Components/TableProperties"
+import {TableProperties} from "../Components/TableProperties"
 
 export const Property = () => {
   return (

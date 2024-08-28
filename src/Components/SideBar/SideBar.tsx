@@ -21,8 +21,6 @@ export const SideBar = () => {
           <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          {/* Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc. */}
           <header>
             <nav>
               <ul>
